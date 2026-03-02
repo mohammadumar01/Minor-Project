@@ -1,6 +1,7 @@
-# Minor Project 
+# Minor Project
 
-This project was developed collaboratively by:
+This project was developed as part of academic coursework.
 
-Mohammad Umar
-Jitesh Kumawat
+Contributors:
+- Mohammad Umar
+- Jitesh Kumawat
