@@ -1,0 +1,10 @@
+Pattern,Ranks,Avg HopCount
+Allreduce,4,3.33
+Bcast root=0,4,3.33
+Reduce root=0,4,3.33
+Allgather,4,3.33
+Barrier,4,6.5
+PingPong 0-1,2,3
+PingPong 0-2,2,3
+PingPong 0-3,2,4
+Overall,-,3.73

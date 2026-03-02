@@ -1,0 +1,178 @@
+Pattern,Topology,Offset,Rank_A,Coord_A,Rank_B,Coord_B,Hop_Count
+AllPingPong Neighbor1,mesh,"(-1, -1, -1)",7,"(1, 1, 1)",0,"(0, 0, 0)",5
+AllPingPong Neighbor1,mesh,"(-1, -1, -1)",11,"(1, 1, 2)",4,"(0, 0, 1)",5
+AllPingPong Neighbor1,mesh,"(-1, -1, -1)",15,"(1, 1, 3)",8,"(0, 0, 2)",5
+AllPingPong Neighbor2,mesh,"(-1, -1, 0)",3,"(1, 1, 0)",0,"(0, 0, 0)",4
+AllPingPong Neighbor2,mesh,"(-1, -1, 0)",7,"(1, 1, 1)",4,"(0, 0, 1)",4
+AllPingPong Neighbor2,mesh,"(-1, -1, 0)",11,"(1, 1, 2)",8,"(0, 0, 2)",4
+AllPingPong Neighbor2,mesh,"(-1, -1, 0)",15,"(1, 1, 3)",12,"(0, 0, 3)",4
+AllPingPong Neighbor3,mesh,"(-1, -1, 1)",3,"(1, 1, 0)",4,"(0, 0, 1)",5
+AllPingPong Neighbor3,mesh,"(-1, -1, 1)",7,"(1, 1, 1)",8,"(0, 0, 2)",5
+AllPingPong Neighbor3,mesh,"(-1, -1, 1)",11,"(1, 1, 2)",12,"(0, 0, 3)",5
+AllPingPong Neighbor4,mesh,"(-1, 0, -1)",5,"(1, 0, 1)",0,"(0, 0, 0)",4
+AllPingPong Neighbor4,mesh,"(-1, 0, -1)",7,"(1, 1, 1)",2,"(0, 1, 0)",4
+AllPingPong Neighbor4,mesh,"(-1, 0, -1)",9,"(1, 0, 2)",4,"(0, 0, 1)",4
+AllPingPong Neighbor4,mesh,"(-1, 0, -1)",11,"(1, 1, 2)",6,"(0, 1, 1)",4
+AllPingPong Neighbor4,mesh,"(-1, 0, -1)",13,"(1, 0, 3)",8,"(0, 0, 2)",4
+AllPingPong Neighbor4,mesh,"(-1, 0, -1)",15,"(1, 1, 3)",10,"(0, 1, 2)",4
+AllPingPong Neighbor5,mesh,"(-1, 0, 0)",1,"(1, 0, 0)",0,"(0, 0, 0)",3
+AllPingPong Neighbor5,mesh,"(-1, 0, 0)",3,"(1, 1, 0)",2,"(0, 1, 0)",3
+AllPingPong Neighbor5,mesh,"(-1, 0, 0)",5,"(1, 0, 1)",4,"(0, 0, 1)",3
+AllPingPong Neighbor5,mesh,"(-1, 0, 0)",7,"(1, 1, 1)",6,"(0, 1, 1)",3
+AllPingPong Neighbor5,mesh,"(-1, 0, 0)",9,"(1, 0, 2)",8,"(0, 0, 2)",3
+AllPingPong Neighbor5,mesh,"(-1, 0, 0)",11,"(1, 1, 2)",10,"(0, 1, 2)",3
+AllPingPong Neighbor5,mesh,"(-1, 0, 0)",13,"(1, 0, 3)",12,"(0, 0, 3)",3
+AllPingPong Neighbor5,mesh,"(-1, 0, 0)",15,"(1, 1, 3)",14,"(0, 1, 3)",3
+AllPingPong Neighbor6,mesh,"(-1, 0, 1)",1,"(1, 0, 0)",4,"(0, 0, 1)",4
+AllPingPong Neighbor6,mesh,"(-1, 0, 1)",3,"(1, 1, 0)",6,"(0, 1, 1)",4
+AllPingPong Neighbor6,mesh,"(-1, 0, 1)",5,"(1, 0, 1)",8,"(0, 0, 2)",4
+AllPingPong Neighbor6,mesh,"(-1, 0, 1)",7,"(1, 1, 1)",10,"(0, 1, 2)",4
+AllPingPong Neighbor6,mesh,"(-1, 0, 1)",9,"(1, 0, 2)",12,"(0, 0, 3)",4
+AllPingPong Neighbor6,mesh,"(-1, 0, 1)",11,"(1, 1, 2)",14,"(0, 1, 3)",4
+AllPingPong Neighbor7,mesh,"(-1, 1, -1)",5,"(1, 0, 1)",2,"(0, 1, 0)",5
+AllPingPong Neighbor7,mesh,"(-1, 1, -1)",9,"(1, 0, 2)",6,"(0, 1, 1)",5
+AllPingPong Neighbor7,mesh,"(-1, 1, -1)",13,"(1, 0, 3)",10,"(0, 1, 2)",5
+AllPingPong Neighbor8,mesh,"(-1, 1, 0)",1,"(1, 0, 0)",2,"(0, 1, 0)",4
+AllPingPong Neighbor8,mesh,"(-1, 1, 0)",5,"(1, 0, 1)",6,"(0, 1, 1)",4
+AllPingPong Neighbor8,mesh,"(-1, 1, 0)",9,"(1, 0, 2)",10,"(0, 1, 2)",4
+AllPingPong Neighbor8,mesh,"(-1, 1, 0)",13,"(1, 0, 3)",14,"(0, 1, 3)",4
+AllPingPong Neighbor9,mesh,"(-1, 1, 1)",1,"(1, 0, 0)",6,"(0, 1, 1)",5
+AllPingPong Neighbor9,mesh,"(-1, 1, 1)",5,"(1, 0, 1)",10,"(0, 1, 2)",5
+AllPingPong Neighbor9,mesh,"(-1, 1, 1)",9,"(1, 0, 2)",14,"(0, 1, 3)",5
+AllPingPong Neighbor10,mesh,"(0, -1, -1)",6,"(0, 1, 1)",0,"(0, 0, 0)",4
+AllPingPong Neighbor10,mesh,"(0, -1, -1)",7,"(1, 1, 1)",1,"(1, 0, 0)",4
+AllPingPong Neighbor10,mesh,"(0, -1, -1)",10,"(0, 1, 2)",4,"(0, 0, 1)",4
+AllPingPong Neighbor10,mesh,"(0, -1, -1)",11,"(1, 1, 2)",5,"(1, 0, 1)",4
+AllPingPong Neighbor10,mesh,"(0, -1, -1)",14,"(0, 1, 3)",8,"(0, 0, 2)",4
+AllPingPong Neighbor10,mesh,"(0, -1, -1)",15,"(1, 1, 3)",9,"(1, 0, 2)",4
+AllPingPong Neighbor11,mesh,"(0, -1, 0)",2,"(0, 1, 0)",0,"(0, 0, 0)",3
+AllPingPong Neighbor11,mesh,"(0, -1, 0)",3,"(1, 1, 0)",1,"(1, 0, 0)",3
+AllPingPong Neighbor11,mesh,"(0, -1, 0)",6,"(0, 1, 1)",4,"(0, 0, 1)",3
+AllPingPong Neighbor11,mesh,"(0, -1, 0)",7,"(1, 1, 1)",5,"(1, 0, 1)",3
+AllPingPong Neighbor11,mesh,"(0, -1, 0)",10,"(0, 1, 2)",8,"(0, 0, 2)",3
+AllPingPong Neighbor11,mesh,"(0, -1, 0)",11,"(1, 1, 2)",9,"(1, 0, 2)",3
+AllPingPong Neighbor11,mesh,"(0, -1, 0)",14,"(0, 1, 3)",12,"(0, 0, 3)",3
+AllPingPong Neighbor11,mesh,"(0, -1, 0)",15,"(1, 1, 3)",13,"(1, 0, 3)",3
+AllPingPong Neighbor12,mesh,"(0, -1, 1)",2,"(0, 1, 0)",4,"(0, 0, 1)",4
+AllPingPong Neighbor12,mesh,"(0, -1, 1)",3,"(1, 1, 0)",5,"(1, 0, 1)",4
+AllPingPong Neighbor12,mesh,"(0, -1, 1)",6,"(0, 1, 1)",8,"(0, 0, 2)",4
+AllPingPong Neighbor12,mesh,"(0, -1, 1)",7,"(1, 1, 1)",9,"(1, 0, 2)",4
+AllPingPong Neighbor12,mesh,"(0, -1, 1)",10,"(0, 1, 2)",12,"(0, 0, 3)",4
+AllPingPong Neighbor12,mesh,"(0, -1, 1)",11,"(1, 1, 2)",13,"(1, 0, 3)",4
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",4,"(0, 0, 1)",0,"(0, 0, 0)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",5,"(1, 0, 1)",1,"(1, 0, 0)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",6,"(0, 1, 1)",2,"(0, 1, 0)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",7,"(1, 1, 1)",3,"(1, 1, 0)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",8,"(0, 0, 2)",4,"(0, 0, 1)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",9,"(1, 0, 2)",5,"(1, 0, 1)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",10,"(0, 1, 2)",6,"(0, 1, 1)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",11,"(1, 1, 2)",7,"(1, 1, 1)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",12,"(0, 0, 3)",8,"(0, 0, 2)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",13,"(1, 0, 3)",9,"(1, 0, 2)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",14,"(0, 1, 3)",10,"(0, 1, 2)",3
+AllPingPong Neighbor13,mesh,"(0, 0, -1)",15,"(1, 1, 3)",11,"(1, 1, 2)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",0,"(0, 0, 0)",4,"(0, 0, 1)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",1,"(1, 0, 0)",5,"(1, 0, 1)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",2,"(0, 1, 0)",6,"(0, 1, 1)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",3,"(1, 1, 0)",7,"(1, 1, 1)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",4,"(0, 0, 1)",8,"(0, 0, 2)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",5,"(1, 0, 1)",9,"(1, 0, 2)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",6,"(0, 1, 1)",10,"(0, 1, 2)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",7,"(1, 1, 1)",11,"(1, 1, 2)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",8,"(0, 0, 2)",12,"(0, 0, 3)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",9,"(1, 0, 2)",13,"(1, 0, 3)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",10,"(0, 1, 2)",14,"(0, 1, 3)",3
+AllPingPong Neighbor14,mesh,"(0, 0, 1)",11,"(1, 1, 2)",15,"(1, 1, 3)",3
+AllPingPong Neighbor15,mesh,"(0, 1, -1)",4,"(0, 0, 1)",2,"(0, 1, 0)",4
+AllPingPong Neighbor15,mesh,"(0, 1, -1)",5,"(1, 0, 1)",3,"(1, 1, 0)",4
+AllPingPong Neighbor15,mesh,"(0, 1, -1)",8,"(0, 0, 2)",6,"(0, 1, 1)",4
+AllPingPong Neighbor15,mesh,"(0, 1, -1)",9,"(1, 0, 2)",7,"(1, 1, 1)",4
+AllPingPong Neighbor15,mesh,"(0, 1, -1)",12,"(0, 0, 3)",10,"(0, 1, 2)",4
+AllPingPong Neighbor15,mesh,"(0, 1, -1)",13,"(1, 0, 3)",11,"(1, 1, 2)",4
+AllPingPong Neighbor16,mesh,"(0, 1, 0)",0,"(0, 0, 0)",2,"(0, 1, 0)",3
+AllPingPong Neighbor16,mesh,"(0, 1, 0)",1,"(1, 0, 0)",3,"(1, 1, 0)",3
+AllPingPong Neighbor16,mesh,"(0, 1, 0)",4,"(0, 0, 1)",6,"(0, 1, 1)",3
+AllPingPong Neighbor16,mesh,"(0, 1, 0)",5,"(1, 0, 1)",7,"(1, 1, 1)",3
+AllPingPong Neighbor16,mesh,"(0, 1, 0)",8,"(0, 0, 2)",10,"(0, 1, 2)",3
+AllPingPong Neighbor16,mesh,"(0, 1, 0)",9,"(1, 0, 2)",11,"(1, 1, 2)",3
+AllPingPong Neighbor16,mesh,"(0, 1, 0)",12,"(0, 0, 3)",14,"(0, 1, 3)",3
+AllPingPong Neighbor16,mesh,"(0, 1, 0)",13,"(1, 0, 3)",15,"(1, 1, 3)",3
+AllPingPong Neighbor17,mesh,"(0, 1, 1)",0,"(0, 0, 0)",6,"(0, 1, 1)",4
+AllPingPong Neighbor17,mesh,"(0, 1, 1)",1,"(1, 0, 0)",7,"(1, 1, 1)",4
+AllPingPong Neighbor17,mesh,"(0, 1, 1)",4,"(0, 0, 1)",10,"(0, 1, 2)",4
+AllPingPong Neighbor17,mesh,"(0, 1, 1)",5,"(1, 0, 1)",11,"(1, 1, 2)",4
+AllPingPong Neighbor17,mesh,"(0, 1, 1)",8,"(0, 0, 2)",14,"(0, 1, 3)",4
+AllPingPong Neighbor17,mesh,"(0, 1, 1)",9,"(1, 0, 2)",15,"(1, 1, 3)",4
+AllPingPong Neighbor18,mesh,"(1, -1, -1)",6,"(0, 1, 1)",1,"(1, 0, 0)",5
+AllPingPong Neighbor18,mesh,"(1, -1, -1)",10,"(0, 1, 2)",5,"(1, 0, 1)",5
+AllPingPong Neighbor18,mesh,"(1, -1, -1)",14,"(0, 1, 3)",9,"(1, 0, 2)",5
+AllPingPong Neighbor19,mesh,"(1, -1, 0)",2,"(0, 1, 0)",1,"(1, 0, 0)",4
+AllPingPong Neighbor19,mesh,"(1, -1, 0)",6,"(0, 1, 1)",5,"(1, 0, 1)",4
+AllPingPong Neighbor19,mesh,"(1, -1, 0)",10,"(0, 1, 2)",9,"(1, 0, 2)",4
+AllPingPong Neighbor19,mesh,"(1, -1, 0)",14,"(0, 1, 3)",13,"(1, 0, 3)",4
+AllPingPong Neighbor20,mesh,"(1, -1, 1)",2,"(0, 1, 0)",5,"(1, 0, 1)",5
+AllPingPong Neighbor20,mesh,"(1, -1, 1)",6,"(0, 1, 1)",9,"(1, 0, 2)",5
+AllPingPong Neighbor20,mesh,"(1, -1, 1)",10,"(0, 1, 2)",13,"(1, 0, 3)",5
+AllPingPong Neighbor21,mesh,"(1, 0, -1)",4,"(0, 0, 1)",1,"(1, 0, 0)",4
+AllPingPong Neighbor21,mesh,"(1, 0, -1)",6,"(0, 1, 1)",3,"(1, 1, 0)",4
+AllPingPong Neighbor21,mesh,"(1, 0, -1)",8,"(0, 0, 2)",5,"(1, 0, 1)",4
+AllPingPong Neighbor21,mesh,"(1, 0, -1)",10,"(0, 1, 2)",7,"(1, 1, 1)",4
+AllPingPong Neighbor21,mesh,"(1, 0, -1)",12,"(0, 0, 3)",9,"(1, 0, 2)",4
+AllPingPong Neighbor21,mesh,"(1, 0, -1)",14,"(0, 1, 3)",11,"(1, 1, 2)",4
+AllPingPong Neighbor22,mesh,"(1, 0, 0)",0,"(0, 0, 0)",1,"(1, 0, 0)",3
+AllPingPong Neighbor22,mesh,"(1, 0, 0)",2,"(0, 1, 0)",3,"(1, 1, 0)",3
+AllPingPong Neighbor22,mesh,"(1, 0, 0)",4,"(0, 0, 1)",5,"(1, 0, 1)",3
+AllPingPong Neighbor22,mesh,"(1, 0, 0)",6,"(0, 1, 1)",7,"(1, 1, 1)",3
+AllPingPong Neighbor22,mesh,"(1, 0, 0)",8,"(0, 0, 2)",9,"(1, 0, 2)",3
+AllPingPong Neighbor22,mesh,"(1, 0, 0)",10,"(0, 1, 2)",11,"(1, 1, 2)",3
+AllPingPong Neighbor22,mesh,"(1, 0, 0)",12,"(0, 0, 3)",13,"(1, 0, 3)",3
+AllPingPong Neighbor22,mesh,"(1, 0, 0)",14,"(0, 1, 3)",15,"(1, 1, 3)",3
+AllPingPong Neighbor23,mesh,"(1, 0, 1)",0,"(0, 0, 0)",5,"(1, 0, 1)",4
+AllPingPong Neighbor23,mesh,"(1, 0, 1)",2,"(0, 1, 0)",7,"(1, 1, 1)",4
+AllPingPong Neighbor23,mesh,"(1, 0, 1)",4,"(0, 0, 1)",9,"(1, 0, 2)",4
+AllPingPong Neighbor23,mesh,"(1, 0, 1)",6,"(0, 1, 1)",11,"(1, 1, 2)",4
+AllPingPong Neighbor23,mesh,"(1, 0, 1)",8,"(0, 0, 2)",13,"(1, 0, 3)",4
+AllPingPong Neighbor23,mesh,"(1, 0, 1)",10,"(0, 1, 2)",15,"(1, 1, 3)",4
+AllPingPong Neighbor24,mesh,"(1, 1, -1)",4,"(0, 0, 1)",3,"(1, 1, 0)",5
+AllPingPong Neighbor24,mesh,"(1, 1, -1)",8,"(0, 0, 2)",7,"(1, 1, 1)",5
+AllPingPong Neighbor24,mesh,"(1, 1, -1)",12,"(0, 0, 3)",11,"(1, 1, 2)",5
+AllPingPong Neighbor25,mesh,"(1, 1, 0)",0,"(0, 0, 0)",3,"(1, 1, 0)",4
+AllPingPong Neighbor25,mesh,"(1, 1, 0)",4,"(0, 0, 1)",7,"(1, 1, 1)",4
+AllPingPong Neighbor25,mesh,"(1, 1, 0)",8,"(0, 0, 2)",11,"(1, 1, 2)",4
+AllPingPong Neighbor25,mesh,"(1, 1, 0)",12,"(0, 0, 3)",15,"(1, 1, 3)",4
+AllPingPong Neighbor26,mesh,"(1, 1, 1)",0,"(0, 0, 0)",7,"(1, 1, 1)",5
+AllPingPong Neighbor26,mesh,"(1, 1, 1)",4,"(0, 0, 1)",11,"(1, 1, 2)",5
+AllPingPong Neighbor26,mesh,"(1, 1, 1)",8,"(0, 0, 2)",15,"(1, 1, 3)",5
+Allreduce,mesh,-,-,-,-,-,4.4
+Barrier,mesh,-,-,-,-,-,15.125
+
+Summary Pattern,Ranks,Pairs,Avg_Hop_Count
+Pattern,Ranks,Pairs,Avg_Hop_Count
+"AllPingPong Neighbor1 (offset (-1, -1, -1))",16,3,5.0
+"AllPingPong Neighbor2 (offset (-1, -1, 0))",16,4,4.0
+"AllPingPong Neighbor3 (offset (-1, -1, 1))",16,3,5.0
+"AllPingPong Neighbor4 (offset (-1, 0, -1))",16,6,4.0
+"AllPingPong Neighbor5 (offset (-1, 0, 0))",16,8,3.0
+"AllPingPong Neighbor6 (offset (-1, 0, 1))",16,6,4.0
+"AllPingPong Neighbor7 (offset (-1, 1, -1))",16,3,5.0
+"AllPingPong Neighbor8 (offset (-1, 1, 0))",16,4,4.0
+"AllPingPong Neighbor9 (offset (-1, 1, 1))",16,3,5.0
+"AllPingPong Neighbor10 (offset (0, -1, -1))",16,6,4.0
+"AllPingPong Neighbor11 (offset (0, -1, 0))",16,8,3.0
+"AllPingPong Neighbor12 (offset (0, -1, 1))",16,6,4.0
+"AllPingPong Neighbor13 (offset (0, 0, -1))",16,12,3.0
+"AllPingPong Neighbor14 (offset (0, 0, 1))",16,12,3.0
+"AllPingPong Neighbor15 (offset (0, 1, -1))",16,6,4.0
+"AllPingPong Neighbor16 (offset (0, 1, 0))",16,8,3.0
+"AllPingPong Neighbor17 (offset (0, 1, 1))",16,6,4.0
+"AllPingPong Neighbor18 (offset (1, -1, -1))",16,3,5.0
+"AllPingPong Neighbor19 (offset (1, -1, 0))",16,4,4.0
+"AllPingPong Neighbor20 (offset (1, -1, 1))",16,3,5.0
+"AllPingPong Neighbor21 (offset (1, 0, -1))",16,6,4.0
+"AllPingPong Neighbor22 (offset (1, 0, 0))",16,8,3.0
+"AllPingPong Neighbor23 (offset (1, 0, 1))",16,6,4.0
+"AllPingPong Neighbor24 (offset (1, 1, -1))",16,3,5.0
+"AllPingPong Neighbor25 (offset (1, 1, 0))",16,4,4.0
+"AllPingPong Neighbor26 (offset (1, 1, 1))",16,3,5.0
+Allreduce,16,-,4.4
+Barrier,16,-,15.125

@@ -1,0 +1,649 @@
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.495        2,113           1           1    2113230 .TAU application
+100.0          242        2,112           1        1377    2112735 taupreload_main
+ 53.0        1,119        1,119           1           0    1119764 MPI_Init() 
+ 26.2          553          553        1302           0        425 MPI_Sendrecv() 
+  5.8          122          122           1           0     122443 MPI_Finalize() 
+  1.8           13           37          40          40        936 MPI_Allreduce() 
+  1.1           24           24          40           0        603 MPI Collective Sync 
+  1.1           23           23           1           0      23434 MPI_Cart_create() 
+  0.7           14           14          15           0        935 MPI_Barrier() 
+  0.0        0.033        0.033           1           0         33 MPI_Comm_free() 
+  0.0        0.007        0.007           1           0          7 MPI_Cart_get() 
+  0.0        0.007        0.007           4           0          2 MPI_Comm_rank() 
+  0.0        0.005        0.005           9           0          1 MPI_Cart_shift() 
+  0.0        0.001        0.001           2           0          0 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.307E+04       7026  Message size received from all nodes
+      1302   3.92E+04          0  1.307E+04       7017  Message size sent to all nodes
+       221  2.941E+04          0   2.05E+04       6786  Message size sent to node 1
+       221  2.941E+04          0   2.05E+04       6786  Message size sent to node 1 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.053E+04       6887  Message size sent to node 3
+       221   3.92E+04          0  2.053E+04       6887  Message size sent to node 3 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9518       2810  Message size sent to node 4
+       430  1.792E+04          0       9518       2810  Message size sent to node 4 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8970       2598  Message size sent to node 8
+       430  1.638E+04          0       8970       2598  Message size sent to node 8 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 1;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.726        2,118           1           1    2118945 .TAU application
+100.0          257        2,118           1        1377    2118219 taupreload_main
+ 52.8        1,119        1,119           1           0    1119520 MPI_Init() 
+ 25.7          543          543        1302           0        418 MPI_Sendrecv() 
+  6.0          126          126           1           0     126201 MPI_Finalize() 
+  1.7           18           35          40          40        878 MPI_Allreduce() 
+  1.1           23           23           1           0      23449 MPI_Cart_create() 
+  0.8           16           16          40           0        420 MPI Collective Sync 
+  0.6           13           13          15           0        873 MPI_Barrier() 
+  0.0        0.037        0.037           1           0         37 MPI_Comm_free() 
+  0.0        0.009        0.009           4           0          2 MPI_Comm_rank() 
+  0.0        0.007        0.007           1           0          7 MPI_Cart_get() 
+  0.0        0.007        0.007           9           0          1 MPI_Cart_shift() 
+  0.0        0.001        0.001           2           0          0 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 1, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.304E+04       7042  Message size received from all nodes
+      1302   3.92E+04          0  1.303E+04       7049  Message size sent to all nodes
+       221   3.92E+04          0  2.052E+04       6888  Message size sent to node 0
+       221   3.92E+04          0  2.052E+04       6888  Message size sent to node 0 : taupreload_main => MPI_Sendrecv() 
+       221   2.94E+04          0   2.05E+04       6787  Message size sent to node 2
+       221   2.94E+04          0   2.05E+04       6787  Message size sent to node 2 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9739       2907  Message size sent to node 5
+       430  1.792E+04          0       9739       2907  Message size sent to node 5 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8644       2516  Message size sent to node 9
+       430  1.638E+04          0       8644       2516  Message size sent to node 9 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 2;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0         0.43        2,117           1           1    2117529 .TAU application
+100.0          237        2,117           1        1377    2117099 taupreload_main
+ 52.9        1,119        1,119           1           0    1119604 MPI_Init() 
+ 26.1          551          551        1302           0        424 MPI_Sendrecv() 
+  6.0          126          126           1           0     126350 MPI_Finalize() 
+  1.9           17           40          40          40       1013 MPI_Allreduce() 
+  1.1           23           23           1           0      23507 MPI_Cart_create() 
+  1.1           22           22          40           0        566 MPI Collective Sync 
+  0.8           17           17          15           0       1154 MPI_Barrier() 
+  0.0        0.047        0.047           4           0         12 MPI_Comm_rank() 
+  0.0        0.038        0.038           1           0         38 MPI_Comm_free() 
+  0.0        0.009        0.009           9           0          1 MPI_Cart_shift() 
+  0.0        0.008        0.008           1           0          8 MPI_Cart_get() 
+  0.0        0.001        0.001           2           0          0 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 2, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.306E+04       7030  Message size received from all nodes
+      1302   3.92E+04          0  1.306E+04       7023  Message size sent to all nodes
+       221   3.92E+04          0  2.052E+04       6888  Message size sent to node 1
+       221   3.92E+04          0  2.052E+04       6888  Message size sent to node 1 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8949       2576  Message size sent to node 10
+       430  1.638E+04          0       8949       2576  Message size sent to node 10 : taupreload_main => MPI_Sendrecv() 
+       221   2.94E+04          0   2.05E+04       6787  Message size sent to node 3
+       221   2.94E+04          0   2.05E+04       6787  Message size sent to node 3 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9516       2848  Message size sent to node 6
+       430  1.792E+04          0       9516       2848  Message size sent to node 6 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 3;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.379        2,117           1           1    2117401 .TAU application
+100.0          220        2,117           1        1377    2117022 taupreload_main
+ 52.9        1,119        1,119           1           0    1119706 MPI_Init() 
+ 27.2          576          576        1302           0        443 MPI_Sendrecv() 
+  6.0          126          126           1           0     126008 MPI_Finalize() 
+  1.8           17           37          40          40        944 MPI_Allreduce() 
+  1.2           24           24           1           0      24363 MPI_Cart_create() 
+  1.0           20           20          40           0        507 MPI Collective Sync 
+  0.6           12           12          15           0        812 MPI_Barrier() 
+  0.0        0.024        0.024           1           0         24 MPI_Comm_free() 
+  0.0        0.006        0.006           1           0          6 MPI_Cart_get() 
+  0.0        0.006        0.006           4           0          2 MPI_Comm_rank() 
+  0.0        0.005        0.005           9           0          1 MPI_Cart_shift() 
+  0.0        0.002        0.002           2           0          1 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 3, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.304E+04       7043  Message size received from all nodes
+      1302   3.92E+04          0  1.304E+04       7048  Message size sent to all nodes
+       221   2.94E+04          0   2.05E+04       6785  Message size sent to node 0
+       221   2.94E+04          0   2.05E+04       6785  Message size sent to node 0 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8667       2516  Message size sent to node 11
+       430  1.638E+04          0       8667       2516  Message size sent to node 11 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.053E+04       6887  Message size sent to node 2
+       221   3.92E+04          0  2.053E+04       6887  Message size sent to node 2 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9741       2936  Message size sent to node 7
+       430  1.792E+04          0       9741       2936  Message size sent to node 7 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 4;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.669        2,118           1           1    2118803 .TAU application
+100.0          254        2,118           1        1377    2118134 taupreload_main
+ 52.8        1,119        1,119           1           0    1119711 MPI_Init() 
+ 25.6          543          543        1302           0        417 MPI_Sendrecv() 
+  6.0          127          127           1           0     127378 MPI_Finalize() 
+  1.7           14           36          40          40        902 MPI_Allreduce() 
+  1.1           23           23           1           0      23377 MPI_Cart_create() 
+  1.0           21           21          40           0        538 MPI Collective Sync 
+  0.6           13           13          15           0        906 MPI_Barrier() 
+  0.0        0.019        0.019           1           0         19 MPI_Comm_free() 
+  0.0        0.011        0.011           9           0          1 MPI_Cart_shift() 
+  0.0        0.009        0.009           4           0          2 MPI_Comm_rank() 
+  0.0        0.006        0.006           1           0          6 MPI_Cart_get() 
+  0.0        0.001        0.001           2           0          0 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 4, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.301E+04       7046  Message size received from all nodes
+      1302   3.92E+04          0  1.301E+04       7054  Message size sent to all nodes
+       430  1.792E+04          0       9513       2863  Message size sent to node 0
+       430  1.792E+04          0       9513       2863  Message size sent to node 0 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8792       2544  Message size sent to node 12
+       430  1.638E+04          0       8792       2544  Message size sent to node 12 : taupreload_main => MPI_Sendrecv() 
+       221   2.95E+04          0   2.05E+04       6789  Message size sent to node 5
+       221   2.95E+04          0   2.05E+04       6789  Message size sent to node 5 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.053E+04       6889  Message size sent to node 7
+       221   3.92E+04          0  2.053E+04       6889  Message size sent to node 7 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 5;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0         0.42        2,118           1           1    2118968 .TAU application
+100.0          255        2,118           1        1377    2118548 taupreload_main
+ 52.8        1,119        1,119           1           0    1119802 MPI_Init() 
+ 25.7          545          545        1302           0        419 MPI_Sendrecv() 
+  6.0          126          126           1           0     126760 MPI_Finalize() 
+  1.6           15           33          40          40        845 MPI_Allreduce() 
+  1.1           24           24           1           0      24324 MPI_Cart_create() 
+  0.9           18           18          40           0        455 MPI Collective Sync 
+  0.6           12           12          15           0        856 MPI_Barrier() 
+  0.0        0.024        0.024           1           0         24 MPI_Comm_free() 
+  0.0        0.008        0.008           9           0          1 MPI_Cart_shift() 
+  0.0        0.008        0.008           4           0          2 MPI_Comm_rank() 
+  0.0        0.007        0.007           1           0          7 MPI_Cart_get() 
+  0.0        0.001        0.001           2           0          0 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 5, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.309E+04       7020  Message size received from all nodes
+      1302   3.92E+04          0  1.309E+04       7014  Message size sent to all nodes
+       430  1.792E+04          0       9743       2865  Message size sent to node 1
+       430  1.792E+04          0       9743       2865  Message size sent to node 1 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8810       2561  Message size sent to node 13
+       430  1.638E+04          0       8810       2561  Message size sent to node 13 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.052E+04       6887  Message size sent to node 4
+       221   3.92E+04          0  2.052E+04       6887  Message size sent to node 4 : taupreload_main => MPI_Sendrecv() 
+       221   2.94E+04          0   2.05E+04       6787  Message size sent to node 6
+       221   2.94E+04          0   2.05E+04       6787  Message size sent to node 6 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 6;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.268        2,101           1           1    2101940 .TAU application
+100.0          230        2,101           1        1377    2101672 taupreload_main
+ 52.9        1,111        1,111           1           0    1111283 MPI_Init() 
+ 26.5          558          558        1302           0        429 MPI_Sendrecv() 
+  5.9          124          124           1           0     124828 MPI_Finalize() 
+  1.8           19           37          40          40        945 MPI_Allreduce() 
+  1.3           26           26           1           0      26765 MPI_Cart_create() 
+  0.9           18           18          40           0        454 MPI Collective Sync 
+  0.6           12           12          15           0        854 MPI_Barrier() 
+  0.0        0.022        0.022           1           0         22 MPI_Comm_free() 
+  0.0        0.007        0.007           4           0          2 MPI_Comm_rank() 
+  0.0        0.006        0.006           1           0          6 MPI_Cart_get() 
+  0.0        0.003        0.003           9           0          0 MPI_Cart_shift() 
+  0.0        0.002        0.002           2           0          1 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 6, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.302E+04       7050  Message size received from all nodes
+      1302   3.92E+04          0  1.302E+04       7057  Message size sent to all nodes
+       430  1.638E+04          0       8819       2580  Message size sent to node 14
+       430  1.638E+04          0       8819       2580  Message size sent to node 14 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9512       2891  Message size sent to node 2
+       430  1.792E+04          0       9512       2891  Message size sent to node 2 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.053E+04       6889  Message size sent to node 5
+       221   3.92E+04          0  2.053E+04       6889  Message size sent to node 5 : taupreload_main => MPI_Sendrecv() 
+       221   2.95E+04          0   2.05E+04       6789  Message size sent to node 7
+       221   2.95E+04          0   2.05E+04       6789  Message size sent to node 7 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 7;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.194        2,112           1           1    2112899 .TAU application
+100.0          240        2,112           1        1377    2112705 taupreload_main
+ 53.0        1,119        1,119           1           0    1119705 MPI_Init() 
+ 26.2          553          553        1302           0        425 MPI_Sendrecv() 
+  5.9          124          124           1           0     124837 MPI_Finalize() 
+  2.0           21           41          40          40       1033 MPI_Allreduce() 
+  1.1           23           23           1           0      23378 MPI_Cart_create() 
+  0.9           19           19          40           0        494 MPI Collective Sync 
+  0.4            9            9          15           0        627 MPI_Barrier() 
+  0.0        0.127        0.127           1           0        127 MPI_Comm_free() 
+  0.0        0.007        0.007           1           0          7 MPI_Cart_get() 
+  0.0        0.007        0.007           4           0          2 MPI_Comm_rank() 
+  0.0        0.005        0.005           9           0          1 MPI_Cart_shift() 
+  0.0        0.002        0.002           2           0          1 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 7, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.308E+04       7031  Message size received from all nodes
+      1302   3.92E+04          0  1.308E+04       7026  Message size sent to all nodes
+       430  1.638E+04          0       8781       2567  Message size sent to node 15
+       430  1.638E+04          0       8781       2567  Message size sent to node 15 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9744       2909  Message size sent to node 3
+       430  1.792E+04          0       9744       2909  Message size sent to node 3 : taupreload_main => MPI_Sendrecv() 
+       221   2.94E+04          0   2.05E+04       6786  Message size sent to node 4
+       221   2.94E+04          0   2.05E+04       6786  Message size sent to node 4 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.052E+04       6886  Message size sent to node 6
+       221   3.92E+04          0  2.052E+04       6886  Message size sent to node 6 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 8;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.269        2,117           1           1    2117264 .TAU application
+100.0          259        2,116           1        1377    2116995 taupreload_main
+ 52.9        1,119        1,119           1           0    1119591 MPI_Init() 
+ 25.3          535          535        1302           0        411 MPI_Sendrecv() 
+  6.0          126          126           1           0     126687 MPI_Finalize() 
+  1.8           14           38          40          40        961 MPI_Allreduce() 
+  1.1           23           23          40           0        588 MPI Collective Sync 
+  1.1           23           23           1           0      23451 MPI_Cart_create() 
+  0.7           14           14          15           0        951 MPI_Barrier() 
+  0.0        0.038        0.038           1           0         38 MPI_Comm_free() 
+  0.0        0.008        0.008           4           0          2 MPI_Comm_rank() 
+  0.0        0.007        0.007           1           0          7 MPI_Cart_get() 
+  0.0        0.006        0.006           9           0          1 MPI_Cart_shift() 
+  0.0        0.002        0.002           2           0          1 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 8, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.312E+04       7011  Message size received from all nodes
+      1302   3.92E+04          0  1.311E+04       7026  Message size sent to all nodes
+       430  1.638E+04          0       8972       2616  Message size sent to node 0
+       430  1.638E+04          0       8972       2616  Message size sent to node 0 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.052E+04       6891  Message size sent to node 11
+       221   3.92E+04          0  2.052E+04       6891  Message size sent to node 11 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9653       3021  Message size sent to node 12
+       430  1.792E+04          0       9653       3021  Message size sent to node 12 : taupreload_main => MPI_Sendrecv() 
+       221  2.947E+04          0   2.05E+04       6790  Message size sent to node 9
+       221  2.947E+04          0   2.05E+04       6790  Message size sent to node 9 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 9;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.229        2,080           1           1    2080903 .TAU application
+100.0          252        2,080           1        1377    2080674 taupreload_main
+ 52.2        1,086        1,086           1           0    1086860 MPI_Init() 
+ 26.2          544          544        1302           0        418 MPI_Sendrecv() 
+  6.1          127          127           1           0     127818 MPI_Finalize() 
+  1.6           15           32          40          40        825 MPI_Allreduce() 
+  1.1           23           23           1           0      23542 MPI_Cart_create() 
+  0.8           17           17          40           0        435 MPI Collective Sync 
+  0.6           12           12          15           0        853 MPI_Barrier() 
+  0.0        0.038        0.038           1           0         38 MPI_Comm_free() 
+  0.0        0.006        0.006           1           0          6 MPI_Cart_get() 
+  0.0        0.006        0.006           4           0          2 MPI_Comm_rank() 
+  0.0        0.005        0.005           9           0          1 MPI_Cart_shift() 
+  0.0        0.002        0.002           2           0          1 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 9, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.299E+04       7086  Message size received from all nodes
+      1302   3.92E+04          0  1.299E+04       7071  Message size sent to all nodes
+       430  1.638E+04          0       8643       2505  Message size sent to node 1
+       430  1.638E+04          0       8643       2505  Message size sent to node 1 : taupreload_main => MPI_Sendrecv() 
+       221   2.94E+04          0  2.051E+04       6781  Message size sent to node 10
+       221   2.94E+04          0  2.051E+04       6781  Message size sent to node 10 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9598       2919  Message size sent to node 13
+       430  1.792E+04          0       9598       2919  Message size sent to node 13 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.053E+04       6883  Message size sent to node 8
+       221   3.92E+04          0  2.053E+04       6883  Message size sent to node 8 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 10;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.263        1,985           1           1    1985680 .TAU application
+100.0          248        1,985           1        1377    1985417 taupreload_main
+ 50.0          992          992           1           0     992080 MPI_Init() 
+ 26.9          534          534        1302           0        410 MPI_Sendrecv() 
+  6.4          126          126           1           0     126426 MPI_Finalize() 
+  2.2           17           42          40          40       1072 MPI_Allreduce() 
+  1.3           25           25          40           0        630 MPI Collective Sync 
+  1.2           23           23           1           0      23791 MPI_Cart_create() 
+  0.9           16           16          15           0       1126 MPI_Barrier() 
+  0.0        0.019        0.019           1           0         19 MPI_Comm_free() 
+  0.0        0.013        0.013           9           0          1 MPI_Cart_shift() 
+  0.0        0.008        0.008           4           0          2 MPI_Comm_rank() 
+  0.0        0.007        0.007           1           0          7 MPI_Cart_get() 
+  0.0        0.002        0.002           2           0          1 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 10, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.311E+04       7005  Message size received from all nodes
+      1302   3.92E+04          0  1.311E+04       7020  Message size sent to all nodes
+       221   2.95E+04          0   2.05E+04       6790  Message size sent to node 11
+       221   2.95E+04          0   2.05E+04       6790  Message size sent to node 11 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9663       2990  Message size sent to node 14
+       430  1.792E+04          0       9663       2990  Message size sent to node 14 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8949       2577  Message size sent to node 2
+       430  1.638E+04          0       8949       2577  Message size sent to node 2 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.052E+04       6890  Message size sent to node 9
+       221   3.92E+04          0  2.052E+04       6890  Message size sent to node 9 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 11;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.315        2,004           1           1    2004243 .TAU application
+100.0          241        2,003           1        1377    2003928 taupreload_main
+ 51.7        1,035        1,035           1           0    1035362 MPI_Init() 
+ 27.5          551          551        1302           0        424 MPI_Sendrecv() 
+  5.1          103          103           1           0     103048 MPI_Finalize() 
+  1.8           18           37          40          40        925 MPI_Allreduce() 
+  1.2           23           23           1           0      23442 MPI_Cart_create() 
+  0.9           18           18          40           0        472 MPI Collective Sync 
+  0.6           12           12          15           0        802 MPI_Barrier() 
+  0.0        0.026        0.026           1           0         26 MPI_Comm_free() 
+  0.0        0.007        0.007           1           0          7 MPI_Cart_get() 
+  0.0        0.006        0.006           4           0          2 MPI_Comm_rank() 
+  0.0        0.005        0.005           9           0          1 MPI_Cart_shift() 
+  0.0        0.001        0.001           2           0          0 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 11, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.299E+04       7073  Message size received from all nodes
+      1302   3.92E+04          0    1.3E+04       7060  Message size sent to all nodes
+       221   3.92E+04          0  2.052E+04       6884  Message size sent to node 10
+       221   3.92E+04          0  2.052E+04       6884  Message size sent to node 10 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9596       2865  Message size sent to node 15
+       430  1.792E+04          0       9596       2865  Message size sent to node 15 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8666       2507  Message size sent to node 3
+       430  1.638E+04          0       8666       2507  Message size sent to node 3 : taupreload_main => MPI_Sendrecv() 
+       221   2.94E+04          0   2.05E+04       6784  Message size sent to node 8
+       221   2.94E+04          0   2.05E+04       6784  Message size sent to node 8 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 12;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.761        2,119           1           1    2119331 .TAU application
+100.0          261        2,118           1        1377    2118570 taupreload_main
+ 52.8        1,119        1,119           1           0    1119380 MPI_Init() 
+ 25.1          532          532        1302           0        409 MPI_Sendrecv() 
+  6.0          127          127           1           0     127298 MPI_Finalize() 
+  1.8           17           37          40          40        939 MPI_Allreduce() 
+  1.1           23           23           1           0      23627 MPI_Cart_create() 
+  1.0           20           20          40           0        511 MPI Collective Sync 
+  0.8           16           16          15           0       1082 MPI_Barrier() 
+  0.0        0.027        0.027           1           0         27 MPI_Comm_free() 
+  0.0        0.012        0.012           4           0          3 MPI_Comm_rank() 
+  0.0        0.006        0.006           9           0          1 MPI_Cart_shift() 
+  0.0        0.004        0.004           1           0          4 MPI_Cart_get() 
+  0.0        0.001        0.001           2           0          0 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 12, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.306E+04       7051  Message size received from all nodes
+      1302   3.92E+04          0  1.306E+04       7042  Message size sent to all nodes
+       221  2.947E+04          0   2.05E+04       6790  Message size sent to node 13
+       221  2.947E+04          0   2.05E+04       6790  Message size sent to node 13 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.052E+04       6890  Message size sent to node 15
+       221   3.92E+04          0  2.052E+04       6890  Message size sent to node 15 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8794       2562  Message size sent to node 4
+       430  1.638E+04          0       8794       2562  Message size sent to node 4 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9655       2938  Message size sent to node 8
+       430  1.792E+04          0       9655       2938  Message size sent to node 8 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 13;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.623        2,087           1           1    2087316 .TAU application
+100.0          271        2,086           1        1377    2086693 taupreload_main
+ 52.4        1,094        1,094           1           0    1094376 MPI_Init() 
+ 25.1          522          522        1302           0        402 MPI_Sendrecv() 
+  6.0          126          126           1           0     126182 MPI_Finalize() 
+  1.6           15           32          40          40        813 MPI_Allreduce() 
+  1.2           25           25           1           0      25965 MPI_Cart_create() 
+  0.8           17           17          40           0        429 MPI Collective Sync 
+  0.6           13           13          15           0        879 MPI_Barrier() 
+  0.0        0.022        0.022           1           0         22 MPI_Comm_free() 
+  0.0        0.007        0.007           9           0          1 MPI_Cart_shift() 
+  0.0        0.006        0.006           1           0          6 MPI_Cart_get() 
+  0.0        0.006        0.006           4           0          2 MPI_Comm_rank() 
+  0.0        0.002        0.002           2           0          1 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 13, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.304E+04       7046  Message size received from all nodes
+      1302   3.92E+04          0  1.304E+04       7055  Message size sent to all nodes
+       221   3.92E+04          0  2.052E+04       6885  Message size sent to node 12
+       221   3.92E+04          0  2.052E+04       6885  Message size sent to node 12 : taupreload_main => MPI_Sendrecv() 
+       221   2.94E+04          0   2.05E+04       6784  Message size sent to node 14
+       221   2.94E+04          0   2.05E+04       6784  Message size sent to node 14 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8808       2543  Message size sent to node 5
+       430  1.638E+04          0       8808       2543  Message size sent to node 5 : taupreload_main => MPI_Sendrecv() 
+       430  1.792E+04          0       9595       3005  Message size sent to node 9
+       430  1.792E+04          0       9595       3005  Message size sent to node 9 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 14;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0         0.43        1,909           1           1    1909079 .TAU application
+100.0          251        1,908           1        1377    1908649 taupreload_main
+ 49.0          934          934           1           0     934714 MPI_Init() 
+ 28.1          535          535        1302           0        412 MPI_Sendrecv() 
+  5.7          108          108           1           0     108138 MPI_Finalize() 
+  2.0           19           38          40          40        973 MPI_Allreduce() 
+  1.4           26           26           1           0      26601 MPI_Cart_create() 
+  1.0           19           19          40           0        481 MPI Collective Sync 
+  0.7           12           12          15           0        858 MPI_Barrier() 
+  0.0        0.021        0.021           1           0         21 MPI_Comm_free() 
+  0.0         0.01         0.01           9           0          1 MPI_Cart_shift() 
+  0.0        0.007        0.007           1           0          7 MPI_Cart_get() 
+  0.0        0.007        0.007           4           0          2 MPI_Comm_rank() 
+  0.0        0.002        0.002           2           0          1 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 14, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.307E+04       7044  Message size received from all nodes
+      1302   3.92E+04          0  1.307E+04       7035  Message size sent to all nodes
+       430  1.792E+04          0       9667       2905  Message size sent to node 10
+       430  1.792E+04          0       9667       2905  Message size sent to node 10 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.052E+04       6890  Message size sent to node 13
+       221   3.92E+04          0  2.052E+04       6890  Message size sent to node 13 : taupreload_main => MPI_Sendrecv() 
+       221   2.95E+04          0   2.05E+04       6791  Message size sent to node 15
+       221   2.95E+04          0   2.05E+04       6791  Message size sent to node 15 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8820       2596  Message size sent to node 6
+       430  1.638E+04          0       8820       2596  Message size sent to node 6 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+NODE 15;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.716        2,136           1           1    2136646 .TAU application
+100.0          266        2,135           1        1377    2135930 taupreload_main
+ 52.4        1,119        1,119           1           0    1119782 MPI_Init() 
+ 24.7          528          528        1302           0        406 MPI_Sendrecv() 
+  6.8          146          146           1           0     146062 MPI_Finalize() 
+  1.8           18           37          40          40        939 MPI_Allreduce() 
+  1.1           23           23           1           0      23409 MPI_Cart_create() 
+  0.9           18           18          40           0        470 MPI Collective Sync 
+  0.7           14           14          15           0        933 MPI_Barrier() 
+  0.0        0.034        0.034           1           0         34 MPI_Comm_free() 
+  0.0        0.007        0.007           1           0          7 MPI_Cart_get() 
+  0.0        0.007        0.007           9           0          1 MPI_Cart_shift() 
+  0.0        0.006        0.006           4           0          2 MPI_Comm_rank() 
+  0.0        0.001        0.001           2           0          0 MPI_Comm_size() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 15, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        40          8          4        7.7      1.054  Message size for all-reduce
+      1302   3.92E+04          0  1.303E+04       7045  Message size received from all nodes
+      1302   3.92E+04          0  1.303E+04       7053  Message size sent to all nodes
+       430  1.792E+04          0       9593       2945  Message size sent to node 11
+       430  1.792E+04          0       9593       2945  Message size sent to node 11 : taupreload_main => MPI_Sendrecv() 
+       221   2.94E+04          0   2.05E+04       6785  Message size sent to node 12
+       221   2.94E+04          0   2.05E+04       6785  Message size sent to node 12 : taupreload_main => MPI_Sendrecv() 
+       221   3.92E+04          0  2.052E+04       6884  Message size sent to node 14
+       221   3.92E+04          0  2.052E+04       6884  Message size sent to node 14 : taupreload_main => MPI_Sendrecv() 
+       430  1.638E+04          0       8780       2552  Message size sent to node 7
+       430  1.638E+04          0       8780       2552  Message size sent to node 7 : taupreload_main => MPI_Sendrecv() 
+---------------------------------------------------------------------------------------
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            7       33,360          16          16    2085011 .TAU application
+100.0        3,992       33,352          16       22032    2084562 taupreload_main
+ 52.3       17,451       17,451          16           0    1090702 MPI_Init() 
+ 26.1        8,710        8,710       20832           0        418 MPI_Sendrecv() 
+  6.0        1,996        1,996          16           0     124779 MPI_Finalize() 
+  1.8          275          597         640         640        934 MPI_Allreduce() 
+  1.2          386          386          16           0      24152 MPI_Cart_create() 
+  1.0          322          322         640           0        503 MPI Collective Sync 
+  0.7          217          217         240           0        906 MPI_Barrier() 
+  0.0        0.549        0.549          16           0         34 MPI_Comm_free() 
+  0.0        0.159        0.159          64           0          2 MPI_Comm_rank() 
+  0.0        0.112        0.112         144           0          1 MPI_Cart_shift() 
+  0.0        0.105        0.105          16           0          7 MPI_Cart_get() 
+  0.0        0.024        0.024          32           0          1 MPI_Comm_size() 
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.449        2,085           1           1    2085011 .TAU application
+100.0          249        2,084           1        1377    2084562 taupreload_main
+ 52.3        1,090        1,090           1           0    1090702 MPI_Init() 
+ 26.1          544          544        1302           0        418 MPI_Sendrecv() 
+  6.0          124          124           1           0     124779 MPI_Finalize() 
+  1.8           17           37          40          40        934 MPI_Allreduce() 
+  1.2           24           24           1           0      24152 MPI_Cart_create() 
+  1.0           20           20          40           0        503 MPI Collective Sync 
+  0.7           13           13          15           0        906 MPI_Barrier() 
+  0.0       0.0343       0.0343           1           0         34 MPI_Comm_free() 
+  0.0      0.00994      0.00994           4           0          2 MPI_Comm_rank() 
+  0.0        0.007        0.007           9           0          1 MPI_Cart_shift() 
+  0.0      0.00656      0.00656           1           0          7 MPI_Cart_get() 
+  0.0       0.0015       0.0015           2           0          1 MPI_Comm_size() 
